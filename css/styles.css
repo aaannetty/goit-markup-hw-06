@@ -863,6 +863,7 @@ textarea::placeholder {
 
 .privacy-policy {
   color: var(--primary-brand);
+  text-decoration: underline;
 }
 
 .visually-hidden {
@@ -903,7 +904,7 @@ textarea::placeholder {
 }
 
 .user-policy-check:checked + .user-policy-check-desc::before {
-  background-image: url(../images/Click.jpg);
+  background-image: url(../images/click.svg);
   background-color: var(--primary-brand);
   border: 1.25px solid var(--light);
   border-radius: 2px;
