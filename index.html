@@ -476,13 +476,15 @@
             rows="10"
             placeholder="Text input"
           ></textarea>
-          <input type="checkbox" class="user-policy-check visually-hidden" name="user-policy" />
-          <label for="user-policy" class="user-policy-check-desc"
-            ><span class="user-policy"
-              >I accept the terms and conditions of the
-              <a href="#" class="privacy-policy">Privacy Policy</a>
-            </span></label
-          >
+          <label class="modal-form-option-label">
+            <input type="checkbox" name="policy" value="accept-policy" class="modal-form-checkbox">
+            <span class="modal-form-custom-checkbox">
+                <svg class="modal-form-checkbox-icon" width="11" height="8">
+                    <use href="./images/sprite.svg#icon-check-icon"></use>
+                </svg>
+            </span>
+            <span class="user-policy">I accept the terms and conditions of the <a class="privacy-policy" href="">Privacy Policy</a></span>
+        </label>
           <button type="submit" class="send-button">Send</button>
         </form>
       </div>
