@@ -883,6 +883,7 @@ textarea::placeholder {
   margin-top: 16px;
   margin-bottom: 24px;
 }
+
 .modal-form-checkbox {
   position: absolute;
   width: 1px;
